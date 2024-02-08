@@ -62,7 +62,14 @@ int main()
         cout<<"Enter number to be searched : ";
         cin>>key;
         b=occurrence(a,n-1,0,key);
-        cout<<key<<" - "<<b<<endl;
-    }
+        if(c=0)
+        {
+            cout<<"Key Not Found";
+        }
+        else
+        {
+            cout<<key<<" - "<<b<<endl;
+        }
+    }    
 }
 
