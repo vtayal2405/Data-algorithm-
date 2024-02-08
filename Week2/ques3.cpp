@@ -1,4 +1,4 @@
-#include<iostream>
+dl#include<iostream>
 using namespace std;
 int main()
 {
@@ -25,7 +25,7 @@ int main()
                 c++;
             }
         }
-        cout<<c;
+        cout<<c<<endl;
     }
 }
 
