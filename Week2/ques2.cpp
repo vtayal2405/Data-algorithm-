@@ -27,7 +27,7 @@ void indice(int arr[],int n)
 }
 int main()
 {
-    int arr[25],t,n,i,j,k,l,key,c;
+    int arr[25],t,n,i;
     cout<<"Enter no. of test cases : ";
     cin>>t;
     for(l=0;l<t;l++)
